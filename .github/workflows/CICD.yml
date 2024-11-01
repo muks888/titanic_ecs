@@ -39,8 +39,8 @@ env:
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: titanic           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
-  AWS_ACCESS_KEY_ID: AKIAZQ3DSJDZYNRW7ZB2
-  AWS_SECRET_ACCESS_KEY: UCUDQy+3wIVds45Ui8iudasPRbaNVunxctnkRQWH
+  AWS_ACCESS_KEY_ID: AKIAZQ3DSJDZTKKPFNN5
+  AWS_SECRET_ACCESS_KEY: xuShSmcjpcu2Bp0NAk+Z4GiC8CLnrFls7slkY2Rk
 
 permissions:
   contents: read
