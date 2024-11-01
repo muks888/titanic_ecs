@@ -32,7 +32,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: 654654458099.dkr.ecr.ap-south-1.amazonaws.com/titanic           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: titanic           # set this to your Amazon ECR repository name
   ECS_SERVICE: titanic2                 # set this to your Amazon ECS service name
   ECS_CLUSTER: TestCluster                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: arn:aws:ecs:ap-south-1:654654458099:task-definition/sample-fargate:1 # set this to the path to your Amazon ECS task definition
