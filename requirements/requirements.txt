@@ -1,0 +1,44 @@
+# From TS
+# numpy==1.23.2   #>=1.21.0,<2.0.0
+# pandas>=1.3.5,<2.0.0
+# pydantic>=1.8.1,<2.0.0
+# scikit-learn==1.3.0
+# strictyaml>=1.3.2,<2.0.0
+# ruamel.yaml>=0.16.12,<1.0.0
+# joblib>=1.0.1,<2.0.0
+
+
+# Mine working
+numpy>=1.21.0,<2.0.0
+pandas>=1.0.0,<2.0.0
+pydantic>=1.8.1,<2.0.0
+scikit-learn>=1.0.0,<1.4.0
+strictyaml>=1.3.2,<2.0.0
+ruamel.yaml>=0.16.12,<1.0.0
+joblib>=1.0.1,<2.0.0
+
+
+#python .\titanic_model\train_pipeline.py
+#python -m build
+
+
+#numpy>=1.3.0.0,<2.0.0
+#pandas>=1.3.5,<2.0.0
+#pydantic>=1.8.1,<2.0.0
+#..errro..scikit-learn==1.3.0
+#scikit-learn>=1.0.0,<1.4.0
+#strictyaml>=1.3.2,<2.0.0
+#ruamel.yaml>=0.16.12,<1.0.0
+#joblib>=1.0.1,<2.0.0
+
+
+#First install all it will fails at sckit
+#Then comment above scikit and change to scikit  =1.0.0,<1.4.0 and run
+# then install pandas agaibn ..pip install pandas
+#then comment all except pydantic and install
+
+
+#In train _pipeline py add this to get rid og future pandas warning..
+
+#  import warnings
+#   warnings.simplefilter("ignore", category=FutureWarning)
