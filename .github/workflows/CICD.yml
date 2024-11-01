@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: titanic           # set this to your Amazon ECR repository name
   ECS_SERVICE: titanic2                 # set this to your Amazon ECS service name
   ECS_CLUSTER: TestCluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: sample-fargate-revision1.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: arn:aws:ecs:ap-south-1:654654458099:task-definition/sample-fargate:1 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: titanic           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
